@@ -1,0 +1,36 @@
+body {
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+.content {
+  min-height: 71.45vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 40px auto;
+}
+
+.details{
+  min-height: 82.5vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 40px auto;
+}
+
+::placeholder {
+  color: #fff;
+
+}
+.dImg {
+  max-width: 90%;
+  max-height: 80vh;
+  margin: auto;
+}
+.goBack {
+  position: fixed;
+  top: 5rem;
+  right: 2rem;
+  z-index: 1000000000000000000000000;
+}
