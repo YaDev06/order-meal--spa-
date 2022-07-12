@@ -5,7 +5,6 @@ import Index from "./pages/Index";
 import Footer from "./layouts/Footer";
 import Category from "./Components/Category";
 import Details from "./Components/Details";
-import { MealContext } from "./reducer/context";
 
 function App() {
   return (
